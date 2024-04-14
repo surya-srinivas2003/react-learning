@@ -1,0 +1,15 @@
+dev dependencies - for dev
+normal dependencies - for prod too.
+parcel is dev dependency so -D flag
+
+parcel creates a local server
+automatically refreshes for every change->HMR - hot module replacement
+it uses file watching algorithm written in c++ :D
+it also caches for faster builds (.parcel-cache)
+also does image optimisation
+minification of files
+bundling
+compressing
+consistent hashing
+code splitting
+differential bundling
